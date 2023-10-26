@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet">
+    <title>HomePage</title>
+</head>
+<body>
+<nav class="navbar navbar-light" style="background-color: #E5E7E6;">
+    <div class="container d-flex z-3">
+        <a class="navbar-brand" href="index.html">
+            <img src="../img/greyLogo.png" class="img" height="20px" width="54px"/>
+        </a>
+        <a class="navbar-brand" href="findMyTire.html">
+            <img src="../img/loupe.png" class="img" height="30px" width="30px"/>
+        </a>
+    </div>
+</nav>
+<div class="container content">
+    <div class="row">
+        <h1>Add a tire</h1>
+    </div>
+    <div class="input-group  z-3">
+        <label class="input-group-text" for="inputGroupSelect01">Road</label>
+        <select class="form-select shadow-none " id="inputGroupSelect01">
+            <option value="1">Gravel</option>
+            <option value="2">Track</option>
+            <option value="3">Road</option>
+            <option value="4">Off-road</option>
+        </select>
+    </div>
+    <div class="input-group mt-2 z-3">
+        <input type="number" class="form-control shadow-none" placeholder="Price" aria-label="Price"
+               aria-describedby="basic-addon1">
+    </div>
+    <div class="input-group mt-2 z-3">
+        <input type="number" class="form-control shadow-none" placeholder="Duration" aria-label="Duration"
+               aria-describedby="basic-addon1">
+    </div>
+    <div class="input-group mt-2  z-3">
+        <label class="input-group-text" for="inputGroupSelect01">Style</label>
+        <select class="form-select shadow-none " id="inputGroupSelect02">
+            <option value="1">Race</option>
+            <option value="2">Sport</option>
+            <option value="3">Cruiser</option>
+        </select>
+    </div>
+    <div class="input-group mt-2 z-3">
+        <input type="number" class="form-control shadow-none" placeholder="max speed" aria-label="max speed"
+               aria-describedby="basic-addon1">
+    </div>
+    <div class="input-group mt-2 z-3">
+        <input type="number" class="form-control shadow-none" placeholder="width" aria-label="width"
+               aria-describedby="basic-addon1">
+    </div>
+    <div class="input-group mt-2 z-3">
+        <input type="number" class="form-control shadow-none" placeholder="aspect" aria-label="aspect"
+               aria-describedby="basic-addon1">
+    </div>
+    <div class="input-group mt-2 z-3">
+        <input type="number" class="form-control shadow-none" placeholder="RIM diameter" aria-label="RIM diameter"
+               aria-describedby="basic-addon1">
+    </div>
+    <div class="input-group mt-2 mb-3 z-3">
+        <input type="file" class="form-control shadow-none" id="inputGroupFile02">
+        <label class="input-group-text" for="inputGroupFile02">Upload</label>
+    </div>
+    <div class="row">
+        <div class="col-12 z-3">
+            <button class="btn btn-outline-dark w-100">Add a tire</button>
+        </div>
+    </div>
+</div>
+
+<div class="stickyBackground">
+</div>
+</body>
+</html>
