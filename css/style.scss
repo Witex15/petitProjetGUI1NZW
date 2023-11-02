@@ -1,0 +1,46 @@
+$purple: #4C3549;
+$red: #D82E20;
+$primary: $purple;
+$secondary: $red;
+@import "./bootstrap/bootstrap.scss";
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gabarito', sans-serif;
+
+}
+.title{
+    font-family: 'Gabarito', sans-serif;
+    font-size: 35px;
+}
+.centerTitle{
+    margin-top: 15rem;
+}
+.stickyBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/roadTire.png');
+    background-size: cover;
+    background-position: center; /* Center the background image horizontally */
+    pointer-events: none;
+    opacity: 0.15; /* 15% opacity */
+}
+.content {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* White background with 90% opacity */
+}
+.btnMed{
+    border-radius: 5px;
+
+}
+.description{
+    color: $red;
+}
+.custom-hr {
+    border: 1px solid $purple; /* Custom border thickness and color */
+    opacity: 1;
+}
