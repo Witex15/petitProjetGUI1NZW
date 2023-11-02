@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="../js/app.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet">
+    <title>HomePage</title>
+</head>
+<body>
+<nav class="navbar navbar-light" style="background-color: #E5E7E6;">
+    <div class="container d-flex ">
+        <a class="navbar-brand" href="index.html">
+            <img src="../img/greyLogo.png" class="img" height="20px" width="54px"/>
+        </a>
+        <a class="navbar-brand" href="findMyTire.html">
+            <img src="../img/loupe.png" class="img" height="30px" width="30px"/>
+        </a>
+    </div>
+</nav>
+<div class="container content">
+    <div class="row mt-3">
+        <h2>Find my tire</h2>
+    </div>
+    <div class="row mt-3">
+        <span>Wich road are your riding on</span>
+    </div>
+    <div class="row mt-3">
+        <div class="col-6">
+            <div class="row">
+                <img src="../img/colorHelmet/inactiv/gravel.svg" data-switch="../img/colorHelmet/active/gravel.svg" class="img d-block mx-auto"
+                     style="height: 70px; width: auto"/>
+            </div>
+            <div class="row text-center">
+                <span>Gravel</span>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="row">
+                <img src="../img/colorHelmet/inactiv/track.svg" data-switch="../img/colorHelmet/active/track.svg" class="img d-block mx-auto"
+                     style="height: 60px; width: auto"/>
+            </div>
+            <div class="row text-center">
+                <span>Track</span>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col-6">
+            <div class="row">
+                <img src="../img/colorHelmet/inactiv/road.svg" data-switch="../img/colorHelmet/active/road.svg" class="img d-block mx-auto"
+                     style="height: 70px; width: auto"/>
+            </div>
+            <div class="row text-center">
+                <span>Road</span>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="row">
+                <img src="../img/colorHelmet/inactiv/offRoad.svg" data-switch="../img/colorHelmet/active/offRoad.svg" class="img d-block mx-auto"
+                     style="height: 60px; width: auto"/>
+            </div>
+            <div class="row text-center">
+                <span>Off-road</span>
+            </div>
+        </div>
+    </div>
+    <hr class="custom-hr">
+    <div class="row mt-3">
+        <label for="budget" class="form-label">What is your budget</label>
+        <input  type="range" class="form-range" id="budget">
+    </div>
+    <hr class="custom-hr">
+    <div class="row mt-3">
+        <label for="duration" class="form-label">Wich duration do you want</label>
+        <input type="range" class="form-range" id="duration">
+    </div>
+    <hr class="custom-hr">
+    <div class="row mt-3">
+        <span>What is your riding style ?</span>
+        <div class="col-6 mt-3">
+            <div class="form-check d-flex justify-content-center">
+                <input class="form-check-input shadow-none " type="checkbox" value="race" id="race">
+                <label class="form-check-label" for="race">
+                    Race
+                </label>
+            </div>
+        </div>
+        <div class="col-6 mt-3">
+            <div class="form-check form-check d-flex justify-content-center">
+                <input class="form-check-input shadow-none " type="checkbox" value="Sport" id="Sport">
+                <label class="form-check-label" for="Sport">
+                    Sport
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="form-check form-check d-flex justify-content-center">
+            <input class="form-check-input shadow-none " type="checkbox" value="cruiser" id="cruiser">
+            <label class="form-check-label" for="cruiser">
+                Cruiser
+            </label>
+        </div>
+    </div>
+    <hr class="custom-hr">
+    <div class="row mt-3">
+        <span>What dimensions do you need</span>
+    </div>
+    <div class="row mt-3">
+        <div class="col-4 ">
+            <input type="number" class="form-control shadow-none" placeholder="width">
+        </div>
+        <div class="col-4 ">
+            <input type="number" class="form-control shadow-none" placeholder="aspect">
+        </div>
+        <div class="col-4 ">
+            <input type="number" class="form-control shadow-none" placeholder="RIM diameter">
+        </div>
+    </div>
+    <div class="row">
+        <img src="../img/tireSize.gif" class="img d-block mx-auto" style="height: auto; width: fit-content"/>
+    </div>
+    <div class="row">
+        <div class="col-12 z-3">
+            <a href="yourTire.html" class="btn btn-outline-dark w-100">Find my tire</a>
+        </div>
+    </div>
+</div>
+
+<div class="stickyBackground">
+</div>
+</body>
+</html>
