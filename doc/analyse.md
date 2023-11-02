@@ -73,9 +73,9 @@ Les différents petit logo proviennent de fontawesome (https://fontawesome.com/i
 
 Étant donné le peu d'expérience front que j'ai, j'ai décidé de ne pas utiliser de library complexe que je ne maîtrise pas.
 
-J'ai donc utilisé les langages suivants : HTML, CSS
+J'ai donc utilisé les langages suivants : HTML, SCSS
 
-J'ai malgré tout utilisé bootsrtap afin de faciliter la mise en page car c'est une technologie que j'ai déjà utilisé et avec la quel je suis alaise.
+J'ai malgré tout utilisé bootstrap afin de faciliter la mise en page car c'est une technologie que j'ai déjà utilisée et avec la quel je suis alaise.
 
 
 
@@ -85,4 +85,6 @@ Le formulaire d'ajout du pneu développé ne correspond pas exactement à celui 
 
 Effectivement après quelque recherche et en utilisant bootstrap je me suis rendu compte que j'étais capable de faire un formulaire plus designe grâce au framework.
 
-Par manque de temps, la page de recherche de pneu n'a pas été développé.
+Par manque de temps, la page de recherche de pneu n'est pas terminée.\
+Les sliders ne sont pas identique à la maquette.\
+La première lettre des casques ne change pas de couleur
