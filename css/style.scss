@@ -44,3 +44,7 @@ body{
     border: 1px solid $purple; /* Custom border thickness and color */
     opacity: 1;
 }
+
+input[type=range]::-webkit-slider-thumb{
+    background-color: $red;
+}

@@ -9782,4 +9782,8 @@ body {
   opacity: 1;
 }
 
+input[type=range]::-webkit-slider-thumb {
+  background-color: #D82E20;
+}
+
 /*# sourceMappingURL=style.css.map */
